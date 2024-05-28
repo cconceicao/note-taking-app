@@ -1,0 +1,11 @@
+.popup-item {
+  color: rgb(55 65 81);
+  border-bottom: 1px solid rgb(243 244 246);
+  padding-right: 3rem;
+}
+
+.popup-item:hover {
+  cursor: pointer;
+  color: rgb(17 24 39);
+  background-color: rgb(243 244 246)
+}

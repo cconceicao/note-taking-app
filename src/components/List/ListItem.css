@@ -1,0 +1,40 @@
+.note {
+  overflow: hidden;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  width: fit-content;
+  white-space: nowrap;
+  position: relative;
+}
+
+.listItem {
+  max-height: 65px;
+  overflow: hidden;
+}
+
+.listItem.isCurrentNote {
+  border: 1px solid rgb(37 99 235);
+}
+
+.listItem:hover .actions {
+  visibility: visible;
+}
+
+.actions {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding-right: 1rem;
+  padding-left: 2rem;
+}
+
+/* 
+To be used when both edit and delete actions are available.
+.note .note-actions {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 1) 20%);
+}
+*/
